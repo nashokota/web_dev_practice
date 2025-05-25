@@ -1,0 +1,27 @@
+.fourth_sec{
+    background: #e3a8a8;
+    background: linear-gradient(54deg, rgba(227, 168, 168, 1) 0%, rgba(199, 115, 115, 1) 20%, rgba(163, 80, 80, 1) 42%, rgba(153, 73, 73, 1) 52%, rgba(143, 67, 67, 1) 60%, rgba(77, 46, 46, 1) 100%);
+    width: 100%;
+    height: 250px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth_sec div{
+    width: 250px;
+    height: 120px;
+    margin: 5px auto;
+    text-align: center;
+}
+.fourth_sec h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(255, 251, 251);
+    margin-bottom: -10px;
+}
+.fourth_sec h4{
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+}

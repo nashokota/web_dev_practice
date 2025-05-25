@@ -1,0 +1,42 @@
+.footerr{
+    margin-top: 1700px;
+    background-color: rgb(5,10,30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+}
+.footerr .foot{
+    width: 88%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.footerr .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.4);
+}
+.footerr .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+.footerr .foot .foot1 button{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+.footerr .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.footerr .foot .foot1 i:hover{
+    color: rgb(125, 255, 255);
+}

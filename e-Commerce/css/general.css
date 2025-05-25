@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: 2rem;
+    letter-spacing: 5px;
+}
+.search-area{
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    width: 170px;
+    height: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% /50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    box-sizing: border-box;
+    border: 1px solid rgba(167,158,245,0.1);
+    z-index: 1;
+}
+.search-box input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1F1F1F;
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+.search-box input::placeholder{
+    color: #1D1D1D;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: poppins;
+}
+.section1{
+    position: absolute;
+    left: 20%;
+    top: 59%;
+    transform:  translate(-15%,-50%);
+}
+.section1 img{
+    height: 300px;
+}
+.section2{
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    transform: translate(-80%,-40%);
+}
+.color{
+    color: #6C63FF;
+    font-weight: bold;
+    text-shadow:0px 5px 10px;
+    text-transform: uppercase;
+    font-size: 52px;
+}
+.section2 h1{
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+.icon-area{
+    position: fixed;
+    background-color:#ffffff;
+    top: 40%;
+    left: 30px;
+    bottom: 20%;
+    width: 40px;
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid;
+    box-shadow: 3px 3px 25px;
+}
+.icon-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    height: 40px;
+}
+.icon-area a i{
+    color: #7e7e7e;
+}
+.icon-area a:hover .fa-facebook-f{
+    color: #3b5998;
+}
+.icon-area a:hover .fa-twitter{
+    color: #00acee;
+}
+.icon-area a:hover .fa-instagram{
+    color: #e8520c;
+}
+.icon-area a:hover .fa-youtube{
+    color: #FF0000;
+}
+.icon-area a:hover{
+    background-color: lightgray;
+    transition: .55s;
+    box-shadow: #8e8d8d;
+}
+.icon-area .icon-area-fb:hover{
+    border-radius: 4px 4px 0px 0px;
+}
+.icon-area .icon-area-yt:hover{
+    border-radius: 0px 0px 0px 0px;
+}
+.btn1{
+    margin-top: 35px;
+    width: 120px;
+    height: 50px;
+    background-color: #0d0686;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .45s;
+}
+.btn1:hover{
+    background-color: rgb(97, 132, 247);
+    color: #1F1F1F;
+    width: 130px;
+    height: 55px;
+    font-size: 20px;
+}

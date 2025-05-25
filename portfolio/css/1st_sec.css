@@ -1,0 +1,66 @@
+.first_sec{
+    background: #cfc1b8;
+    background: linear-gradient(28deg, rgba(207, 193, 184, 1) 0%, rgba(230, 215, 211, 1) 48%, rgba(247, 247, 247, 1) 100%);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_sec div{
+    margin-top: -40px;
+    width: 80%;
+}
+.first_sec .text{
+    margin-left:220px ;
+}
+.first_sec .image{
+    padding-right: 90px;
+    margin-top: -160px;
+}
+.first_sec .image img{
+    max-width: 100%;
+}
+.first_sec .text h3{
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+.first_sec .text h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: initial;
+}
+.first_sec .text p{
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: #575656;
+}
+.first_sec .text button{
+    background: -webkit-linear-gradient(0deg, #481313 0%, #9f6a6a 100%);
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    margin-top: 60px;
+}
+.first_sec .text button:hover{
+    box-shadow: 5px 10px 30px rgb(63, 43, 43);
+    outline: none;
+}
